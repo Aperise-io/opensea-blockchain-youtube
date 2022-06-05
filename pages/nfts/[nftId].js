@@ -27,7 +27,6 @@ const Nft = () => {
 
     const sdk = new ThirdwebSDK(
       provider.getSigner(),
-      'https://rinkeby.infura.io/v3/a464b9152d8c466c8a94a514fce8e837'
     )
     return sdk.getNFTModule('0xdCA2fB805e44B3ed53C2a69e57Dd236D35d1686D')
   }, [provider])
@@ -49,7 +48,6 @@ const Nft = () => {
 
     const sdk = new ThirdwebSDK(
       provider.getSigner(),
-      'https://rinkeby.infura.io/v3/a464b9152d8c466c8a94a514fce8e837'
     )
 
     return sdk.getMarketplaceModule(
